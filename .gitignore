@@ -1,8 +1,8 @@
-**/*.o
-**/*.a
-**/*.so
-**/*.d
-**/*.bin
+# FOLDERS
+*build*/
+*product*/
+*todo*/
+*install*/
 **/dep/**
 **/build/**
 **/obj/**
@@ -11,10 +11,20 @@
 **/lib/**
 **/apidoc/**
 **/test/data/**
+
+
+**/*.o
+**/*.a
+**/*.so
+**/*.d
+**/*.bin
+
 **/*~
 **/gmon.out
 site/**
 *.swp
+
+# FILES
 README-headless.md
 README-orig.md
 TODO
